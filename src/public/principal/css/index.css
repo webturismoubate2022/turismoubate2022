@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;400&family=Raleway:ital,wght@1,900&family=Red+Hat+Display:ital,wght@1,500&display=swap');
+
+html{
+    font-family: 'Quicksand', 'Montserrat', Verdana, Geneva, Tahoma, sans-serif, cursive;
+    
+    color: black;
+}
+body {
+	background-image: url(../img/basilicainterno.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 1%;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.aaa{
+    margin-top: 0%;
+}
+
+.iniciar{
+    padding-top: 10%;
+}
+
+img.imgmultimedia{
+    /*background-color: rgb(122, 11, 11);*/
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /*position:absolute;
+*/  top: 40px;
+  left : 40px;
+  z-index: -1;
+  background-size: contain;
+  background-size: 200px;
+}
+
+.informacion{
+    width:auto;
+    height: 40%;
+    border-radius: 30px;
+    margin: 0% 1% 0% 1%;
+    background-color: aqua;
+    border: solid 0px;
+    text-align: center;
+}
+
+
+.atractivos{
+    width:auto;
+height: 40%;
+    border-radius: 30px;
+    margin: 0% 1% 0% 1%;
+    background-color: rgba(138, 177, 189, 0.534);
+    border: solid 0px;
+    text-align: center;
+}
+
+.rutas{
+    backdrop-filter: blur(3px) saturate(73%);
+    -webkit-backdrop-filter: blur(3px) saturate(73%);
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 12px;
+    border: 1px solid rgb(113, 117, 122)    ;
+  }
+
+.noticias{
+    width:auto;
+    height: 40%;
+    border-radius: 30px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    border: solid 0px;
+}
+
+
+li:hover {
+    opacity: 0.5;
+}
+
+.containeratractivos {
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . . . ."
+      ". . . . ."
+      ". . . . ."
+      ". . . . ."; 
+  }
+  /* RUTAS */
+
+  .portfolioU .portfolio-itemU {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 50rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+ .portfolioB .portfolio-itemB  {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 50rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+   .portfolioA .portfolio-itemA   {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 50rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  .portfolioT .portfolio-itemT  {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 50rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+ .portfolioE .portfolio-itemE  {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 50rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  /* .portfolioU .portfolio-itemU .portfolio-item-captionU {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out ;
+    opacity: 0;
+    background-color:rgba(217, 164, 6, 0.5);
+  } */
+
+  .portfoliou .portfolio-itemu .portfolio-item-captionu:hover {
+    opacity: 1;
+  }
+
+  .portfoliou .portfolio-itemu .portfolio-item-captionu .portfolio-item-caption-contentu {
+    font-size: 1.5rem;
+  }
+
+  .portfolioB .portfolio-itemB .portfolio-item-captionB {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out ;
+    opacity: 0;
+    background-color:#fa277c;
+  }
+  
+  .portfolioB .portfolio-itemB .portfolio-item-captionB:hover {
+    opacity: 1;
+  }
+
+  .portfolioB .portfolio-itemB .portfolio-item-captionB .portfolio-item-caption-contentB {
+    font-size: 1.5rem;
+  }
+
+  .portfolioA .portfolio-itemA .portfolio-item-captionA {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out ;
+    opacity: 0;
+    background-color:rgba(13, 202, 240);
+  }
+  
+  .portfolioA .portfolio-itemA .portfolio-item-captionA:hover {
+    opacity: 1;
+  }
+
+  .portfolioA .portfolio-itemA .portfolio-item-captionA .portfolio-item-caption-contentA {
+    font-size: 1.5rem;
+  }
+
+  .portfolioT .portfolio-itemT .portfolio-item-captionT {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out ;
+    opacity: 0;
+    background-color:rgba(253, 126, 20);
+  }
+  
+  .portfolioT .portfolio-itemT .portfolio-item-captionT:hover {
+    opacity: 1;
+  }
+
+  .portfolioT .portfolio-itemT .portfolio-item-captionT .portfolio-item-caption-contentT {
+    font-size: 1.5rem;
+  }
+
+  .portfolioE .portfolio-itemE .portfolio-item-captionE {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out ;
+    opacity: 0;
+    background-color:rgb(45, 250, 68);
+  }
+  
+  .portfolioE .portfolio-itemE .portfolio-item-captionE:hover {
+    opacity: 1;
+  }
+
+  .portfolioE .portfolio-itemE .portfolio-item-captionE .portfolio-item-caption-contentE {
+    font-size: 1.5rem;
+  }
